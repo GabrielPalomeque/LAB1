@@ -1,3 +1,39 @@
+#TABLA DE COMANDOS
+
+| #  | Command          | Use                                                  |
+| -- | ---------------- | ---------------------------------------------------- |
+| 1  | ls               | List of files and directories                        |
+| 2  | ls -l            | Shows files in long format (permissions, size, date) |
+| 3  | cd               | Change directory                                     |
+| 4  | pwd              | Print work directory (shows current path)            |
+| 5  | sudo             | Run a command as superuser                           |
+| 6  | sudo su          | Switch to root user                                  |
+| 7  | mkdir            | Create a directory                                   |
+| 8  | touch            | Create empty file                                    |
+| 9  | sudo apt update  | Update package lists                                 |
+| 10 | sudo apt upgrade | Upgrade installed packages                           |
+| 11 | sudo apt install | Install repositories or packages                     |
+| 12 | tree             | Shows directory tree (requires installation)         |
+| 13 | rm               | Remove a file                                        |
+| 14 | rm -r            | Remove directory and contents                        |
+| 15 | mv               | Move or rename files/directories                     |
+| 16 | cp               | Copy files or directories                            |
+| 17 | chown            | Change ownership of files                            |
+| 18 | chmod            | Change file permissions                              |
+| 19 | adduser          | Adds a new user                                      |
+| 20 | usermod          | Modify existing user settings                        |
+| 21 | gpasswd          | Change group configurations                          |
+| 22 | cat, nano, gedit | View or edit text files                              |
+| -- | -----------------| -----------------------------------------------------|
+| 23 | clear            | Clear the terminal screen                            |
+| 24 | man              | Show manual/help of a command                        |
+| 25 | echo             | Display a message or text in terminal                |
+| 26 | head             | Show the first lines of a file                       |
+| 27 | tail             | Show the last lines of a file                        |    
+| 28 | history          | Display previously used commands                     |
+
+
+
 #Ejercicio 1
 mkdir -p "ice cream 2023/water flavors"/{Cinnabon,apple,pineaple}"ice cream 2023/milk flavors"/{chocolate,cappucino}
 tree
